@@ -1,7 +1,3 @@
----
-framework_version: 1.0.0
----
-
 # Interview Preparation Guide
 
 <!-- SETUP: STAR examples are personalized by running /setup based on your actual experience -->
@@ -38,6 +34,60 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 **Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+
+## STAR Candidates (Complete Manually)
+
+Path A extracted these achievements from CV/LinkedIn. Fill S/T/A/R before using in interviews.
+
+### DeBERTa AI vs. human text classification (Amberley / independent project)
+**Source:** CV / LinkedIn - Amberley Tech & High-Performance DeBERTa Fine-Tuning project
+**What happened:** Fine-tuned DeBERTa for AI-generated content detection under adversarial conditions; reported F1 99.71%, ROC AUC 99.96%.
+**Why it matters:** Technical depth, NLP metrics, adversarial robustness, independent ownership
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### AI Code Plagiarism Detector to production (Cloud Counselage)
+**Source:** CV - Cloud Counselage Pvt. Ltd.
+**What happened:** Built plagiarism detector for IAC project reviews; reduced evaluation time by 90%; deployed to production.
+**Why it matters:** Production deployment, impact metrics, education/automation domain
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### EvoAI agentic commerce pipelines (Blotout)
+**Source:** CV / LinkedIn - Blotout
+**What happened:** Built recommendation/personalization pipelines and agentic workflows (order tracking, ticket creation, live-agent handoff) for EvoAI.
+**Why it matters:** Agentic systems, e-commerce personalization, production AI pipelines
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Bittensor Whisper audio caption subnet (Amberley)
+**Source:** CV / LinkedIn - Amberley Tech
+**What happened:** Built/deployed Whisper-based audio caption subnet with miner-validator architecture; mined across decentralized AI subnets.
+**Why it matters:** Decentralized AI, systems design, novel infrastructure
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Museum Guide Bot — VLSI Design Contest Top 5 (2025)
+**Source:** CV - Achievements
+**What happened:** Gesture + voice recognition museum guide bot on NXP i.MX RT117H; Top 5 at VLSI Design Conference 2025.
+**Why it matters:** Embedded/edge AI, hardware+ML, competition delivery under constraints
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 

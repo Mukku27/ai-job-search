@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Mukesh Vemulapalli
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Mukesh Vemulapalli, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,82 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Mukesh Vemulapalli
+- **Location:** Hyderabad, Telangana, India (Remote India/abroad preferred; open to relocate within India)
+- **Languages:** English (professional), Telugu (native), Hindi (professional)
+- **Status:** Actively seeking full-time AI/ML engineering roles; open to internships with strong conversion potential; available immediately (no notice period)
+- **LinkedIn headline:** "AI Engineer | Agentic AI | Generative AI | LLMs | Deep Learning"
+- **Email:** vemulapallimukesh@gmail.com
+- **Phone:** +91 9959014266
+- **LinkedIn:** https://www.linkedin.com/in/mukesh-vemulapalli-93a259261
+- **GitHub:** https://github.com/Mukku27
+- **Portfolio:** https://mukeshvemulapalliportfolio.vercel.app/
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Tech in Electronics and Communications Engineering** (July 2022 – May 2026) - Rajiv Gandhi University of Knowledge Technologies (RGUKT), Nuzvid, India
+  - Topics: Electronics, communications, embedded/AI project work
+- **PUC (Pre-University Course)** (October 2020 – June 2022) - RGUKT Nuzvid
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **AI Engineer (Intern)** (August 2025 – March 2026) - **Blotout** (Fremont, CA, Remote)
+  - Built AI pipelines for EvoAI: personalized recommendations, predictive search, dynamic ranking
+  - Developed agentic workflows for order tracking, delayed-shipment alerts, ticket creation, live-agent handoff
+  - Implemented contextual pricing, promo recommendations, and behavior-based product suggestions
+- **AI Engineer (Intern)** (January 2025 – July 2025) - **Amberley Tech** (Remote / Hyderabad)
+  - Built Bittensor Whisper audio-caption subnet (miner-validator); mined across decentralized AI subnets
+  - Fine-tuned DeBERTa for AI vs. human text classification (F1 99.71%, ROC AUC 99.96%)
+  - Multi-agent content generation to Arweave; Ethereum MCP server for on-chain AI agent queries
+- **AI Intern** (August 2024 – December 2024) - **Cloud Counselage Pvt. Ltd.** (Remote, India)
+  - AI Code Plagiarism Detector for IAC; reduced evaluation time by 90%; production deployment
+  - Fine-tuned LLaMA 3.2, Mistral, Phi-3; built AI agents and preprocessing pipelines
+- **LLM Engineer (Contract)** (July 2024) - **Sentient Matters** (Remote, India)
+  - Llama-2 banking helpline bot; fine-tuned for banking; deployed to production
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python, LLMs, AI Agents, LangChain/LangGraph, RAG, PyTorch, FastAPI, production ML systems
+- **Secondary:** TensorFlow/Keras, LlamaIndex, Langfuse, CrewAI/AutoGen, NLP, computer vision, Docker
+- **Domain:** Generative AI, agentic workflows, recommendation/personalization, decentralized AI (Bittensor), blockchain-adjacent AI tooling
+- **Software:** Git, Postman, MySQL, MongoDB, Pinecone, AWS, Google Cloud, Streamlit
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- AI Aware Badge - AI For All
+- WebML101: Google AI for Anyone
+- LLM101x: Large Language Models: Application through Production
+- EDXGAB01: Generative AI for Business Leaders
+- edX Professional Certificate for Resume, Networking, and Interview Skills
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None listed
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- Top 5 - VLSI Design Contest, VLSI Design Conference 2025 (Museum Guide Bot, NXP i.MX RT117H)
+- Finalist - Avishkaar Season 2 (AI Travel Assistant)
+- Top 10 - NXP AIM Regional Finale (autonomous car, Gazebo/ROS/CV)
+- Top 2,000 AI builders in India - Y Combinator Startup School (April 2026)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Production orientation** - Ships practical AI beyond prototypes
+- **Ownership / end-to-end execution** - Prefers owning features from design to deployment
+- **Strengths:** Agentic LLM systems, measurable ML outcomes, fast shipping with engineering teams
+- **Growth areas:** Formal behavioral assessment not on file; lead with role-relevant stack depth over listing every tool
+- **Thrives in:** Collaborative, high-ownership teams with modern AI/LLM stacks and mentorship
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building production-grade AI systems that solve real user problems (LLMs, agents, RAG, recommendations, scalable ML infrastructure)
+- Owning features end-to-end, shipping quickly, working with high-performing engineering teams
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- VC-backed startups (primary)
+- Roles: AI Engineer, LLM Engineer, Agentic AI Engineer, ML Engineer, Applied AI Engineer, Generative AI Engineer, Forward-Deployed AI Engineer, AI Platform Engineer, Founding AI Engineer, Solutions AI Engineer, GTM Engineer
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- No opportunity to build production AI products
+- Weak engineering culture / no ownership
+- No learning or mentorship path
+- Outdated / non-modern AI-LLM stack
+- Must-haves: production AI product work, strong ownership culture, mentorship, modern LLM/agent stack
+- Compensation baseline: ~₹1 lakh/month (India); ~USD 1,500/month (remote abroad) — discuss case-by-case for strong equity/learning opportunities
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -1,10 +1,4 @@
----
-framework_version: 1.0.0
----
-
 # Job Evaluation Framework
-
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
 
 ## Scoring Dimensions
 
@@ -20,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, LLMs, AI agents / multi-agent systems, RAG, LangChain / LangGraph, PyTorch, FastAPI, production ML / LLM deployment, recommendation & personalization, NLP
+**Moderate match areas:** TensorFlow/Keras, LlamaIndex, Langfuse, CrewAI/AutoGen, computer vision, Docker, vector DBs (Pinecone), AWS/GCP, Streamlit dashboards, blockchain-adjacent AI (Bittensor, Arweave, Ethereum MCP)
+**Weak match areas:** Heavy frontend product engineering, traditional backend-only roles without AI, pure research without deployment path, years of senior staff IC experience expectations, enterprise Java-only stacks
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -34,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Production LLM apps, agentic workflows, GenAI personalization/recommendations, fine-tuning and evaluation, FastAPI/Python ML services
+**Moderate:** Decentralized AI / crypto-adjacent AI tooling, embedded/edge AI contest work, contract/internship-length shipping cycles
+**Entry-level:** Roles requiring 5+ years industry tenure, people management, large-scale distributed systems ownership without mentorship
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -50,11 +44,14 @@ Does the role and company culture match the behavioral profile?
 
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
+Strong culture signals: ownership, shipping production AI, mentorship, modern LLM/agent stacks, high-performing eng teams.
+Friction signals: no product-building, rigid bureaucracy, prototype-only AI theater, zero mentorship.
+
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Remote (India or abroad): PASS
+- Relocate within India: PASS
+- On-site only outside India requiring relocation abroad without remote option: FLAG (discuss; open to remote abroad)
+- Requires unpaid notice / delayed start: usually PASS (candidate available immediately)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -67,19 +64,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Full-time AI/ML engineering with production LLM, agents, RAG, recommendations, or ML infrastructure
+- Grow into founding / forward-deployed / platform AI roles at VC-backed startups
+- Own features end-to-end and ship with strong engineering teams
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: production AI products, agents/RAG/LLMs, end-to-end ownership, fast shipping, modern stacks, mentorship
+- Tasks that drain: maintenance-only work, no AI product building, outdated stacks, zero ownership
+- Non-task factors: engineering culture, autonomy, learning path, startup pace
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Baseline ~₹1 lakh/month India or ~USD 1,500/month remote abroad; flexible for exceptional equity/learning
+- **Flexibility**: Remote preferred; open to relocate in India; available immediately
+- **Professional development:** Mentorship and modern AI/LLM learning are must-haves
 
 ### 6. Salary Benchmark (Optional)
 
@@ -101,7 +98,7 @@ Present findings as:
 
 Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
-If the salary tool is not configured, skip this section.
+If the salary tool is not configured, skip this section. Candidate self-reported baseline: ~₹1L/month India; ~USD 1.5k/month remote abroad.
 
 ## Output Format
 

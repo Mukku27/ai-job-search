@@ -1,7 +1,3 @@
----
-framework_version: 1.0.0
----
-
 # Cover Letter Templates and Tailoring Guide
 
 ## Template: Custom cover.cls (XeLaTeX)

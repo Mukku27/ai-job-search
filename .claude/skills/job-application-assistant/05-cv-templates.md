@@ -1,7 +1,3 @@
----
-framework_version: 1.0.0
----
-
 # CV Templates and Tailoring Guide
 
 <!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
@@ -109,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For AI / LLM / Agentic Engineer roles:**
+> AI Engineer specializing in production LLM systems, AI agents, and RAG. Built and shipped agentic commerce workflows, recommendation/personalization pipelines, and fine-tuned NLP models (DeBERTa F1 99.71%). Strong in Python, PyTorch, LangChain/LangGraph, and FastAPI. Looking to own end-to-end AI features at a high-ownership engineering team.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Applied / Generative / Platform AI roles:**
+> Applied AI engineer with internship and contract experience deploying GenAI to production (banking helpline bot, plagiarism detector with 90% faster evaluation, EvoAI personalization). Comfortable across model fine-tuning, agent orchestration, data pipelines, and API services. Excited by scalable ML infrastructure and shipping user-facing AI products.
+
+**For Founding / Forward-Deployed / Solutions AI roles:**
+> Hands-on AI builder who moves from prototype to production quickly across LLMs, multi-agent systems, and recommendation engines. Experience spanning startup remote teams, decentralized AI (Bittensor), and customer-facing agent workflows. Strong fit for founding or forward-deployed roles that need ownership, speed, and clear communication with stakeholders.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

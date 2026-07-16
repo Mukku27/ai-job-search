@@ -1,164 +1,125 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
+%% Master CV - Mukesh Vemulapalli
+%% Comprehensive overview of competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Mukesh Vemulapalli - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Mukesh}{Vemulapalli}
+\address{Hyderabad, Telangana, India}{}{}
+\phone[mobile]{+91 9959014266}
+\email{vemulapallimukesh@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/mukesh-vemulapalli-93a259261}{LinkedIn}, \href{https://github.com/Mukku27}{GitHub}, \href{https://mukeshvemulapalliportfolio.vercel.app/}{Portfolio}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{AI Engineer specializing in production LLM systems, AI agents, RAG, and recommendation pipelines. Shipped agentic commerce workflows, fine-tuned NLP models (DeBERTa F1 99.71\%), and production GenAI tools (plagiarism detector with 90\% faster evaluation). Strong in Python, PyTorch, LangChain/LangGraph, and FastAPI. Available immediately for full-time AI/ML roles (remote or India relocate).}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{LLMs \& AI Agents}: LangChain, LangGraph, LlamaIndex, CrewAI, AutoGen, RAG, prompt engineering, agent orchestration
+\item \textbf{ML / Deep Learning}: PyTorch, TensorFlow, Keras, Scikit-learn, NLP, fine-tuning, evaluation (F1, ROC-AUC)
+\item \textbf{Production ML}: FastAPI, Flask, Docker, data ingestion, feature pipelines, model deployment
+\item \textbf{Data \& Retrieval}: NumPy, Pandas, MySQL, MongoDB, Pinecone, Streamlit
+\item \textbf{Languages \& Cloud}: Python (primary), C/C++, JavaScript; AWS, Google Cloud; Git
 \end{itemize}
-
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
 
 \section{Professional Experience}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2025--Mar 2026}{AI Engineer (Intern)}{Blotout}{Fremont, CA (Remote)}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Built and optimized AI pipelines for EvoAI: hyper-personalized recommendations, predictive search, and dynamic product ranking.
+    \item Developed agentic workflows for real-time order tracking, delayed-shipment alerts, automated ticket creation, and live-agent handoff.
+    \item Implemented AI-driven personalization for contextual pricing, promo-code recommendations, and behavior-based suggestions.
+    \item Improved data ingestion and feature-engineering pipelines for recommendation engines and LLM-powered shopping agents.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jan 2025--Jul 2025}{AI Engineer (Intern)}{Amberley Tech}{Remote, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Built and deployed Bittensor subnets including a Whisper-based audio caption subnet with miner-validator architecture.
+    \item Fine-tuned DeBERTa for AI vs.\ human text classification (F1 99.71\%, ROC AUC 99.96\%) under adversarial conditions.
+    \item Created a multi-agent content-generation system that publishes long-form articles to Arweave.
+    \item Engineered an Ethereum MCP server in Python for real-time AI agent interaction with on-chain data.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Aug 2024--Dec 2024}{AI Intern}{Cloud Counselage Pvt.\ Ltd.}{Remote, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Developed an AI Code Plagiarism Detector for IAC project reviews; reduced evaluation time by 90\%; deployed to production.
+    \item Fine-tuned LLaMA 3.2, Mistral, and Phi-3; built AI agents and optimized preprocessing for deployment.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{Jul 2024}{LLM Engineer (Contract)}{Sentient Matters}{Remote, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed a banking helpline bot with Llama-2; fine-tuned for banking; automated support tasks and shipped to production.
 \end{itemize}}}
 
 \end{itemize}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{LLM Trading Agent}: Autonomous crypto trading with CoT LLMs, NumPy/Numba indicators, asyncio/ccxt, Streamlit P\&L dashboard.
+\item \textbf{DeBERTa Fine-Tuning}: Multi-GPU FP16 training pipeline for human vs.\ AI text classification with rigorous evaluation.
+\item \textbf{AI Inventory System}: Gemini Pro + PandasAI NL-to-SQL analytics with Streamlit/SQLite/Plotly reporting agents.
+\end{itemize}
 
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
+\needspace{5\baselineskip}
+\item{\cventry{Jul 2022--May 2026}{B.Tech in Electronics and Communications Engineering}{RGUKT Nuzvid}{Nuzvid, India}{}{}}
 \end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
 
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Telugu (native), English (professional), Hindi (professional).
 \end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item \textbf{Top 5} -- VLSI Design Contest, VLSI Design Conference 2025 (Museum Guide Bot, NXP i.MX RT117H).
+\item \textbf{Finalist} -- Avishkaar Season 2 (AI Travel Assistant).
+\item \textbf{Top 10} -- NXP AIM Regional Finale (autonomous car, Gazebo/ROS/CV).
+\item \textbf{Top 2,000 AI builders in India} -- Y Combinator Startup School (April 2026).
 \end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
 
 \section{References}
 \vspace{1pt}

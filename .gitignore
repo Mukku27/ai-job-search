@@ -78,3 +78,6 @@ upskill/*.md
 
 # Machine-local Gemini skill symlinks (point at ~/.aionui/... absolute paths)
 .gemini/
+
+# Applications folder (personal output)
+applications/**

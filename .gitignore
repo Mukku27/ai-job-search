@@ -75,3 +75,6 @@ upskill/*.md
 
 # Brainstorm mockups (superpowers visual companion) - never ship
 .superpowers/
+
+# Machine-local Gemini skill symlinks (point at ~/.aionui/... absolute paths)
+.gemini/

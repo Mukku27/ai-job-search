@@ -32,15 +32,23 @@ When the user provides a job posting (URL or text), follow this workflow:
 
 ### Step 3: Write Cover Letter
 - Follow the writing style rules in `03-writing-style.md` (critical: no em-dashes, no cliches)
+- Apply the `behuman` skill so the letter reads like a real person, not generated prose
 - Follow the template structure in `06-cover-letter-templates.md`
 - Create `cover_letters/cover_<company>_<role>.tex`
 - Ensure the letter connects specific experience to the role requirements
 
 ### Step 4: Interview Preparation
 - Follow the framework in `07-interview-prep.md`
+- Apply the `behuman` skill to every answer and talking point (read aloud test: would you say this out loud?)
 - Prepare STAR-format answers for likely questions
 - Identify role-specific talking points
 - Draft questions the candidate should ask the interviewer
+
+### Step 5: Application / Hiring Form Answers
+- Draft answers in first person, specific, and uneven where real life is uneven
+- Follow `03-writing-style.md` and apply the `behuman` skill before delivering
+- Sweep the kill list (AI vocabulary, formula sentences, chatbot residue) on every draft
+- Prefer concrete systems, numbers, and tradeoffs over polished generic claims
 
 ---
 
@@ -51,6 +59,7 @@ When the user provides a job posting (URL or text), follow this workflow:
 | `01-candidate-profile.md` | Education, experience, skills, publications, awards |
 | `02-behavioral-profile.md` | Behavioral assessment, strengths, ideal environments |
 | `03-writing-style.md` | Tone, structure, do's and don'ts |
+| `../behuman/SKILL.md` | Strip AI-writing tells from all prose (application Q&A, cover letters, interview answers) |
 | `04-job-evaluation.md` | Scoring framework for job fit |
 | `05-cv-templates.md` | LaTeX CV structure and tailoring rules |
 | `06-cover-letter-templates.md` | LaTeX cover letter structure and tailoring rules |
@@ -65,4 +74,5 @@ The user may also ask for individual steps without the full workflow:
 - "Write a CV for [company]" - Step 2 only
 - "Write a cover letter for [role] at [company]" - Step 3 only
 - "Help me prepare for an interview at [company]" - Step 4 only
+- "Answer these hiring / application questions" - Step 5 only (always run `behuman`)
 - "What jobs should I look for?" - Career strategy discussion using profile + evaluation framework

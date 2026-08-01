@@ -1,5 +1,9 @@
 # Writing Style Guide
 
+## BeHuman (required for all prose)
+
+Before delivering cover letters, application/hiring answers, interview answers, or outreach messages, read and apply `../behuman/SKILL.md`. Write with those rules active, then sweep the kill list. For long drafts or "why does this sound like AI?" edits, also use `../behuman/references/pattern-catalog.md`.
+
 ## Critical Rules
 
 1. **NO em-dashes (--).**  Use commas, periods, or restructure the sentence instead.

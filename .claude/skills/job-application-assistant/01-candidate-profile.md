@@ -1,3 +1,7 @@
+---
+framework_version: 1.1.1
+---
+
 # Candidate Profile
 
 ## Identity
@@ -8,10 +12,21 @@
 - **LinkedIn:** https://www.linkedin.com/in/mukesh-vemulapalli-93a259261
 - **GitHub:** https://github.com/Mukku27
 - **Portfolio:** https://mukeshvemulapalliportfolio.vercel.app/
-- **Languages:** English (professional), Telugu (native), Hindi (professional)
 - **Status:** Actively seeking full-time AI/ML engineering roles; open to internships with strong conversion potential; available immediately (no notice period)
 - **Constraints:** Remote (India/abroad) preferred; open to relocate within India. Compensation baseline ~₹1L/month India or ~USD 1.5k/month remote abroad.
 - **LinkedIn headline:** AI Engineer | Agentic AI | Generative AI | LLMs | Deep Learning
+
+### Languages
+<!-- Every language you can work in professionally, with your honest level. Used by the
+Language Gate in 04-job-evaluation.md and by job-scraper/search-queries.md's query-language
+generation. Omit any language you don't actually work in - an undeclared language is treated as
+a hard no, not a gap to smooth over. -->
+
+| Language | Level | Notes |
+|----------|-------|-------|
+| Telugu | Native | |
+| English | Professional working proficiency | CV and LinkedIn language |
+| Hindi | Professional working proficiency | |
 
 ## Education
 

@@ -7,21 +7,21 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\namestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
 \usepackage{needspace}
-\usepackage{hyperref}
-\hypersetup{
+% moderncv loads hyperref (with the unicode option) at the end of the preamble,
+% so apply custom link settings afterwards to avoid an option clash.
+\AtBeginDocument{\hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
     pdftitle={Mukesh Vemulapalli - CV},
     pdfpagemode=FullScreen,
-}
+}}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 

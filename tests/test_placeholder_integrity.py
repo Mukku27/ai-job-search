@@ -28,6 +28,17 @@ CV_SENTINELS = ["\\name{[First]}{[Last]}", "\\email{[your.email@example.com]}"]
 PROFILE_SENTINEL = "[YOUR_EMAIL]"
 
 
+def _is_template_cv() -> bool:
+    """True only on the upstream template. Personalized forks replace these
+    sentinels via /setup; the placeholder-integrity *job* is already gated
+    off in ci.yml, but these unit tests run on every fork and must skip."""
+    return CV_SENTINELS[0] in EXAMPLE_CV.read_text(encoding="utf-8")
+
+
+def _is_template_profile() -> bool:
+    return PROFILE_SENTINEL in PROFILE.read_text(encoding="utf-8")
+
+
 def personalize_cv(text: str) -> str:
     """Apply /setup Step 3.7's documented edit: replace placeholder personal
     data with a real name and contact info. Header comments and hyperref
@@ -58,10 +69,12 @@ class TestCvSentinelsAreDataLocated(unittest.TestCase):
             "ci.yml must assert the sentinel inside the \\email{} data line",
         )
 
+    @unittest.skipUnless(_is_template_cv(), "fork already personalized; sentinels are gone by design")
     def test_pristine_cv_carries_both_sentinels(self):
         for sentinel in CV_SENTINELS:
             self.assertIn(sentinel, self.cv)
 
+    @unittest.skipUnless(_is_template_cv(), "fork already personalized; sentinels are gone by design")
     def test_setup_edit_destroys_the_sentinels(self):
         personalized = personalize_cv(self.cv)
         self.assertNotEqual(personalized, self.cv, "the simulated /setup edit must change the file")
@@ -84,6 +97,10 @@ class TestProfileSentinelIsDataLocated(unittest.TestCase):
             "a header comment the model may leave untouched",
         )
 
+    @unittest.skipUnless(
+        _is_template_profile(),
+        "fork already personalized; [YOUR_EMAIL] sentinel is gone by design",
+    )
     def test_pristine_profile_carries_the_sentinel(self):
         self.assertIn(PROFILE_SENTINEL, PROFILE.read_text(encoding="utf-8"))
 

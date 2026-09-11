@@ -15,8 +15,11 @@ the sentinels exist in the pristine files, and (c) that simulating the
 /setup edit destroys at least one checked sentinel per file - i.e. the
 guard actually fires on the failure it exists to catch.
 """
+import os
 import unittest
 from pathlib import Path
+
+UPSTREAM = "MadsLorentzen/ai-job-search"
 
 REPO = Path(__file__).resolve().parent.parent
 CI = REPO / ".github" / "workflows" / "ci.yml"
@@ -40,7 +43,7 @@ def _is_template_profile() -> bool:
 
 
 def personalize_cv(text: str) -> str:
-    """Apply /setup Step 3.7's documented edit: replace placeholder personal
+    """Apply /setup Step 3.8's documented edit: replace placeholder personal
     data with a real name and contact info. Header comments and hyperref
     metadata are not personal data, so they are deliberately left alone -
     that is exactly why a comment-located sentinel guards nothing."""
@@ -52,6 +55,10 @@ def personalize_cv(text: str) -> str:
     )
 
 
+@unittest.skipIf(
+    os.environ.get("GITHUB_REPOSITORY", UPSTREAM) != UPSTREAM,
+    "placeholder-integrity guards the pristine upstream template; forks personalize these files via /setup",
+)
 class TestCvSentinelsAreDataLocated(unittest.TestCase):
     def setUp(self):
         self.ci = CI.read_text(encoding="utf-8")
@@ -87,6 +94,10 @@ class TestCvSentinelsAreDataLocated(unittest.TestCase):
         )
 
 
+@unittest.skipIf(
+    os.environ.get("GITHUB_REPOSITORY", UPSTREAM) != UPSTREAM,
+    "placeholder-integrity guards the pristine upstream template; forks personalize these files via /setup",
+)
 class TestProfileSentinelIsDataLocated(unittest.TestCase):
     def test_ci_checks_a_data_placeholder_not_the_header_comment(self):
         ci = CI.read_text(encoding="utf-8")

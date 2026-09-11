@@ -86,3 +86,4 @@ The user may also ask for individual steps without the full workflow:
 - "Help me prepare for an interview at [company]" - Step 4 only
 - "Answer these hiring / application questions" - Step 5 only (always run `behuman`)
 - "What jobs should I look for?" - Career strategy discussion using profile + evaluation framework
+- "Submit this application" / `/submit` - fill and submit in real Chrome (`.claude/skills/playwright-chrome-apply/SKILL.md`). Distinct from `/apply`, which only drafts.

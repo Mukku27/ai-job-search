@@ -2,20 +2,7 @@
 name: jobindex-search
 version: 1.0.0
 description: >
-  Make sure to use this skill whenever the user wants to search for jobs in Denmark,
-  find Danish job listings, look up a specific job posting, or asks anything about
-  the Danish job market — even if they don't mention jobindex.dk explicitly. Invoke
-  this skill for questions about open positions, job vacancies, hiring in Denmark,
-  job opportunities in Danish cities or sectors, or when the user wants to find work
-  in Denmark. Also trigger for phrases like "find me a job", "are there any jobs for
-  X in Copenhagen", or "what jobs are available in Aarhus" when the context is Denmark.
-  Trigger phrases include: jobindex, jobsøgning, job i Danmark, ledige stillinger,
-  job opslag, find job, stillingopslag, jobannonce, job vacancy denmark, danish jobs,
-  jobs in denmark, job search denmark, work in denmark, find work denmark, IT jobs
-  denmark, engineer jobs denmark, developer jobs copenhagen, marketing jobs aarhus,
-  jobs aarhus, jobs copenhagen, jobs odense, jobs aalborg, job openings denmark,
-  hiring denmark, job listings denmark, python jobs denmark, grafisk designer job,
-  data engineer job, softwareudvikler job, full stack developer job danmark.
+  Make sure to use this skill whenever the user wants to search jobs in Denmark, find Danish listings, look up a posting, or asks about the Danish job market — even without mentioning jobindex.dk. Also for open positions, vacancies, hiring, or opportunities by city/sector. Trigger on "find me a job" or "any X jobs in Copenhagen/Aarhus" when Denmark is context. Trigger phrases: jobindex, jobsøgning, job i Danmark, ledige stillinger, job opslag, jobannonce, danish jobs, jobs in denmark, job search denmark, work/find work denmark, IT/engineer/developer/marketing jobs denmark, jobs aarhus/copenhagen/odense/aalborg, hiring, python/grafisk designer/data engineer/softwareudvikler/full stack jobs denmark.
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 allowed-tools: Bash(bun run .agents/skills/jobindex-search/cli/src/cli.ts *)

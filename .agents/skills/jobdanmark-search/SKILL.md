@@ -2,20 +2,7 @@
 name: jobdanmark-search
 version: 1.0.0
 description: >
-  Make sure to use this skill whenever the user mentions anything related to Danish
-  job listings, job search in Denmark, finding work in Denmark, or job vacancies on
-  Jobdanmark — even if they don't explicitly mention jobdanmark.dk. Also invoke this
-  skill for questions about specific Danish job categories, municipalities, job types,
-  or salaries in a job-search context. Trigger phrases include:
-  danish jobs, jobs in denmark, find job denmark, job search denmark, danish job listings,
-  jobdanmark, job opslag, find job, jobsøgning, ledige stillinger, stillingsopslag,
-  job i Danmark, fuldtidsjob, deltidsjob, studiejob, praktikplads, elev, fleksjob,
-  IT job denmark, sygeplejersker job, håndværker job, ingeniør job, pædagog job,
-  kontor job, leder job, salg job, hotel job, kirke job, job aarhus, job københavn,
-  job odense, job aalborg, job sjælland, job jylland, job fyn, jobkategorier denmark,
-  ledige job, ansøgningsfrist, søg job, job opslaget, jobopslag, danish vacancies,
-  work in denmark, employment denmark, job denmark, jobs near me denmark,
-  apprentice denmark, internship denmark, part-time denmark, full-time denmark.
+  Make sure to use this skill whenever the user mentions Danish job listings, job search in Denmark, finding work in Denmark, or vacancies on Jobdanmark — even without explicit mention. Also for Danish categories, municipalities, job types, or salaries. Trigger phrases: danish jobs, jobs in denmark, danish job listings, jobdanmark, job opslag, jobsøgning, ledige stillinger, job i Danmark, fuldtidsjob, deltidsjob, studiejob, praktikplads, elev, fleksjob, IT/sygeplejerske/håndværker/ingeniør/pædagog/kontor/leder/salg/hotel/kirke jobs, job aarhus/københavn/odense/aalborg/sjælland/jylland/fyn, ansøgningsfrist, work in denmark, employment denmark.
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 allowed-tools: Bash(bun run .agents/skills/jobdanmark-search/cli/src/cli.ts *)

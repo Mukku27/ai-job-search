@@ -126,3 +126,24 @@ graphify-out
 cv
 cover_letters
 application_forms
+
+# Real-Chrome /submit harness configs (machine-local only — they embed a
+# local-only Playwright bridge token). Tracked token-free equivalents are
+# .cursor/mcp.json and .mcp.json.
+opencode.jsonc
+.kilo/
+.pi/
+
+# Playwright MCP session dumps (auto-generated page/console logs)
+.playwright-mcp/
+
+# Nested standalone repo (has its own .git) — stays local, not a submodule
+job-auto-apply/
+
+# Personal runtime data (never commit these)
+job_queue.json
+mukesh-all-unique-jobs.xlsx
+job_scraper/batch_claims_*.json*
+job_scraper/queue_*.json
+job_scraper/discovery_*/
+documents/batch_reports/
